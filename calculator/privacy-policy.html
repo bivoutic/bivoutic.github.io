@@ -2,23 +2,42 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy for Calculator</title>
 <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #444; }
     h1, h2, h3, h4 { color: #333; }
-    hr { margin: 30px 0; }
-    a { color: #0066cc; }
+    hr { border: 0; height: 1px; background: #eee; margin: 30px 0; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .data-safety-box { background: #f9f9f9; padding: 20px; border-left: 4px solid #0066cc; margin: 20px 0; }
 </style>
 </head>
 <body>
 
 <h2>Privacy Policy for Calculator</h2>
 
-<p><strong>Effective Date: November 9, 2025</strong></p>
+<p><strong>Effective Date: December 30, 2025</strong></p>
 
 <p>
-This Privacy Policy explains how the <strong>Calculator</strong> mobile application (the "App"), created by <strong>Bivoutic</strong> (the "Developer" or "We"), handles information collected from users (each, a "User") of the App.
+This Privacy Policy explains how the <strong>Calculator</strong> mobile application (the "App"), created by <strong>bivoutic apps</strong> (the "Developer" or "We"), handles information collected from users (each, a "User") of the App.
 </p>
+
+<hr>
+
+<div class="data-safety-box">
+    <h3>Data Safety Declaration</h3>
+    <p>
+        In accordance with the Google Play Data Safety requirements, we disclose that this App uses third-party SDKs (Google AdMob and Google Play Billing) which collect and share the following data types for advertising, analytics, and fraud prevention:
+    </p>
+    <ul>
+        <li><strong>Location:</strong> Approximate location (IP-based).</li>
+        <li><strong>Device or Other IDs:</strong> Advertising ID (AAID).</li>
+        <li><strong>Financial Information:</strong> Purchase history related to in-app purchases.</li>
+        <li><strong>App Info and Performance:</strong> Crash logs and diagnostics.</li>
+    </ul>
+    <p>All data is encrypted in transit via HTTPS.</p>
+</div>
 
 <hr>
 
@@ -26,7 +45,7 @@ This Privacy Policy explains how the <strong>Calculator</strong> mobile applicat
 
 <h4>Data Collected by the Developer</h4>
 <p>
-The <strong>Calculator</strong> App provides basic and unit conversion calculations. It does not collect, store, or transmit any personal data from its users. No registration is required and no personal details such as name, email address, location, or contact information are requested.
+The <strong>Calculator</strong> App provides basic mathematical and unit conversion calculations. The Developer does not personally collect, store, or transmit any personal identification data. No registration is required.
 </p>
 
 <h4>Data Collected by Third Party Services (AdMob)</h4>
@@ -35,9 +54,10 @@ The App uses <strong>Google AdMob</strong> to display advertisements. AdMob coll
 </p>
 
 <ul>
-    <li><strong>Information Collected by AdMob:</strong> Device Advertising ID, IP address, device type, operating system, and data related to user interaction with ads. This information is used to measure performance, provide personalized ads, and maintain security.</li>
-    <li><strong>Google's Privacy Policy:</strong> Details about Google's data practices can be found here: 
-        <a href="https://policies.google.com/technologies/partner-sites">
+    <li><strong>Information Collected:</strong> Device Advertising ID (AAID), IP address, device type, and interaction data.</li>
+    <li><strong>Purpose:</strong> Ad personalization, frequency capping, and security.</li>
+    <li><strong>Google's Privacy Policy:</strong> 
+        <a href="https://policies.google.com/technologies/partner-sites" target="_blank">
             How Google uses information from sites or apps that use their services
         </a>.
     </li>
@@ -45,40 +65,39 @@ The App uses <strong>Google AdMob</strong> to display advertisements. AdMob coll
 
 <hr>
 
-<h3>2. In App Purchases (IAP)</h3>
+<h3>2. In-App Purchases and Billing</h3>
 
-<p>The App offers a "Remove Ads" feature available for purchase.</p>
+<p>The App offers a "Remove Ads" feature processed via the Google Play Billing Library.</p>
 
 <ul>
-    <li>All transactions are processed through third party payment providers such as the Google Play Store.</li>
-    <li>The Developer does not collect or store payment information, credit card numbers, or banking details. These are handled entirely by the platform.</li>
-    <li>The Developer receives only confirmation of whether a purchase succeeded, used solely to unlock the ad free version of the App.</li>
+    <li><strong>Transaction Processing:</strong> All financial transactions are handled by the Google Play Store. The Developer does not have access to your credit card or banking details.</li>
+    <li><strong>Purchase History:</strong> We receive a purchase token and confirmation to verify your ad-free status. This is linked to your Google Account.</li>
 </ul>
 
 <hr>
 
-<h3>3. Opt Out of Personalized Advertising</h3>
-
-<p>Users can manage or limit personalized ads through device settings.</p>
-
-<ul>
-    <li><strong>Android Devices:</strong> Open device settings and navigate to the Google or Privacy section to adjust Ad Settings.</li>
-</ul>
-
-<hr>
-
-<h3>4. Security</h3>
+<h3>3. Advertising ID and Opt-Out</h3>
 
 <p>
-We appreciate your trust and make every effort to protect any information handled by the App. No method of data transmission or storage can be guaranteed as fully secure and we cannot assure absolute safety.
+This App accesses the Android Advertising ID to provide a better advertising experience. 
+</p>
+<ul>
+    <li><strong>Opt-Out:</strong> Users can opt-out of interest-based advertising or reset their Advertising ID by visiting their Android Device Settings > Google > Ads.</li>
+</ul>
+
+<hr>
+
+<h3>4. Data Retention and Deletion</h3>
+<p>
+Since we do not store personal user data on our own servers, we do not have a specific data deletion mechanism for developer-side data. However, data collected by Google (AdMob/Billing) is managed according to Google’s data retention policies. Users may contact us for any inquiries regarding data usage.
 </p>
 
 <hr>
 
-<h3>5. Changes to This Privacy Policy</h3>
+<h3>5. Security</h3>
 
 <p>
-The Privacy Policy may be updated occasionally. You are encouraged to review this page from time to time. Updates become effective immediately after being posted here.
+We prioritize the security of any data handled by the App. While we use industry-standard practices and SDKs that utilize encryption in transit, no method of transmission over the internet is 100% secure.
 </p>
 
 <hr>
@@ -86,7 +105,7 @@ The Privacy Policy may be updated occasionally. You are encouraged to review thi
 <h3>6. Contact Us</h3>
 
 <p>
-If you have questions or suggestions regarding this Privacy Policy, please contact <strong>Bivoutic</strong> using the information available on the Google Play Store listing.
+If you have questions regarding this Privacy Policy, please contact <strong>bivoutic apps</strong> through bivoutic.apps@gmail.com.
 </p>
 
 </body>
