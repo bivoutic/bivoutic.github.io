@@ -34,8 +34,11 @@
         th {
             background-color: #f4f4f4;
         }
-        strong {
-            font-weight: bold;
+        .highlight {
+            background-color: #fff3cd;
+            padding: 10px;
+            border-left: 5px solid #ffeeba;
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -43,85 +46,68 @@
 
     <h1>Privacy Policy for PicPress</h1>
 
-    <p><strong>Effective Date: December 11, 2025</strong></p>
+    <p><strong>Effective Date: December 30, 2025</strong></p>
 
     <p>This Privacy Policy governs the use of the mobile application <strong>PicPress</strong> (the "Application"), provided by <strong>bivoutic apps</strong> ("we," "us," or "our").</p>
 
-    <p>We respect your privacy and are committed to protecting it through our compliance with this policy. This policy describes the information we process to support the functionality of the PicPress application.</p>
+    <div class="highlight">
+        <strong>Privacy Commitment:</strong> Your images never leave your device. All compression and optimization are performed locally. We do not have access to your photos.
+    </div>
 
-    <h2>1. The PicPress Application is Offline and Local</h2>
+    <h2>1. Data Processing and Local Storage</h2>
 
-    <p><strong>PicPress is designed to be an offline tool.</strong> All image processing, compression, and saving occurs <strong>entirely on your device</strong>. We do not connect to any servers, and we do not collect, store, transmit, or share any of your images, media files, or personally identifiable information.</p>
+    <h3>A. User Images and Media Files</h3>
+    <p>PicPress processes your images <strong>locally on your device</strong>. Images are loaded into memory, compressed according to your settings, and saved to your storage. We do not upload your images to any servers.</p>
 
-    <h2>2. Information We DO NOT Collect</h2>
+    <h3>B. Application Settings</h3>
+    <p>We use Android's DataStore to save your preferences (Compression quality, resolution presets, and output folder paths) locally. This data remains on your device and is not shared with us.</p>
 
-    <p>Because PicPress is an offline-first application focused solely on local media processing, we <strong>do not</strong> collect the following types of data:</p>
-    <ul>
-        <li>No Personal Identifiable Information (PII) such as name, email address, or device ID.</li>
-        <li>No user images or media files.</li>
-        <li>No metadata from your device, such as location, contacts, or calendar information.</li>
-        <li>No crash reports or analytics logs are transmitted to us.</li>
-    </ul>
+    <h2>2. Third-Party Services</h2>
 
-    <h2>3. Data Processing and Local Storage</h2>
+    <p>To provide certain features and maintain application stability, we use the following third-party services which may collect limited data:</p>
 
-    <h3>A. User Images and Media Files (The Core Function)</h3>
-    <ul>
-        <li><strong>Access:</strong> When you select an an image, the Application requires access to the image file on your device’s storage for the purpose of compression.</li>
-        <li><strong>Processing:</strong> The image is loaded into the device's memory, compressed according to your settings (quality, resolution, EXIF preservation), and then saved back to a folder you select (or the default media folder).</li>
-        <li><strong>Deletion/Retention:</strong> We do not retain copies of your original or compressed images after the compression job is complete. The management and retention of these files are entirely under your control on your device.</li>
-    </ul>
+    <h3>A. Advertising (Google AdMob)</h3>
+    <p>The free version of PicPress uses Google AdMob to display advertisements. AdMob may collect and use data such as your device's advertising ID to show relevant ads. <strong>Note: Users who purchase "Pro Mode" will have all advertising and related tracking disabled.</strong></p>
 
-    <h3>B. Compression Settings (Local DataStore)</h3>
-    <ul>
-        <li><strong>What is stored:</strong> To provide a convenient experience, the Application locally stores your last-used compression preferences, such as:
-            <ul>
-                <li>Image Quality</li>
-                <li>Resolution Preset</li>
-                <li>Whether to preserve EXIF data</li>
-                <li>The URI path to your selected output folder (managed locally).</li>
-            </ul>
-        </li>
-        <li><strong>Purpose:</strong> This data is stored locally using <strong>Android's DataStore</strong> only to restore the application's state and settings when you next open it.</li>
-        <li><strong>Security:</strong> This configuration data is stored securely within the app's private directory and is not accessible by other applications or transmitted to us or any third party.</li>
-    </ul>
+    <h3>B. Stability and Performance (Firebase Crashlytics)</h3>
+    <p>We use Firebase Crashlytics to collect anonymous crash reports. This helps us identify and fix bugs. These reports include technical information like device model, OS version, and the stack trace of the crash, but <strong>no personal information or user images</strong>.</p>
 
-    <h2>4. Permissions Required</h2>
+    <h3>C. In-App Purchases (Google Play Billing)</h3>
+    <p>If you purchase Pro Mode, the transaction is handled securely by the Google Play Store. We do not collect or store your credit card or payment information.</p>
 
-    <p>The PicPress Application requires the following permissions to function as an image processor:</p>
+    <h2>3. Permissions Required</h2>
+
     <table>
         <thead>
             <tr>
-                <th>Permission Required</th>
+                <th>Permission</th>
                 <th>Purpose</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><strong>Media/Storage Access (Read and Write)</strong></td>
-                <td>To read the original images you select for compression and to write the compressed images to a directory on your device.</td>
+                <td><strong>Images/Storage Access</strong></td>
+                <td>To read original images and save compressed versions to your device.</td>
+            </tr>
+            <tr>
+                <td><strong>Internet Access</strong></td>
+                <td>Required for loading advertisements (Free version) and processing Pro Mode purchases.</td>
+            </tr>
+            <tr>
+                <td><strong>AD_ID Permission</strong></td>
+                <td>Used by AdMob to provide personalized advertising (Android 13+).</td>
             </tr>
         </tbody>
     </table>
 
-    <h2>5. Third-Party Services (Analytics and Advertising)</h2>
+    <h2>4. Children's Privacy</h2>
+    <p>The Application does not knowingly collect personally identifiable information from children under 13. As our processing is local, we do not have a way to identify the age of our users.</p>
 
-    <p><strong>As of the current version (v1.0.0), PicPress does not use any third-party analytics, advertising, or data collection services.</strong></p>
+    <h2>5. Changes to This Policy</h2>
+    <p>We may update this policy periodically. We will notify you of changes by updating the "Effective Date" at the top of this page.</p>
 
-    <p>If we incorporate features such as crash reporting, analytics, or advertising in future versions, this Privacy Policy will be updated immediately to reflect those changes, and you will be prompted to review the new policy.</p>
-
-    <h2>6. Children's Privacy</h2>
-
-    <p>The PicPress Application is not intended for use by anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13. If we discover that a child under 13 has provided us with personal information, we will delete that information immediately.</p>
-
-    <h2>7. Changes to This Privacy Policy</h2>
-
-    <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the Application and updating the "Effective Date" at the top of this policy. You are advised to review this Privacy Policy periodically for any changes.</p>
-
-    <h2>8. Contact Us</h2>
-
-    <p>If you have any questions or suggestions about this Privacy Policy, please contact us at:</p>
-
+    <h2>6. Contact Us</h2>
+    <p>If you have questions regarding your privacy while using PicPress, please contact us:</p>
     <p><strong>Developer:</strong> bivoutic apps<br>
     <strong>Email:</strong> bivoutic.apps@gmail.com</p>
 
