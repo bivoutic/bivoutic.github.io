@@ -19,6 +19,7 @@ a high-performance image utility designed to handle media optimization without c
     * Optimized for low memory footprint and fast execution times.
 
 [Download on Google Play](https://play.google.com/store/apps/details?id=com.bivoutic.imagepress)
+
 iOS Version Coming Soon
 
 ---
@@ -27,12 +28,14 @@ iOS Version Coming Soon
 
 PhotoBlocks is an interactive puzzle application that transforms personal or stock imagery into logic-based challenges.
 
+
 * **Game Features**:
     * Multiple difficulty tiers with adjustable grid sizes (from 3x3 to 6x6).
     * High-fidelity image rendering and smooth drag-and-drop mechanics.
     * Built-in library of diverse high-quality themes.
 
 [Test on Google Play](https://play.google.com/store/apps/details?id=com.bivoutic.PhotoBlocks)
+
 iOS Version Coming Soon
 
 ---
@@ -43,6 +46,7 @@ A clean, reliable calculation tool built with accuracy and simplicity in mind.
 
 
 [Download on Google Play](https://play.google.com/store/apps/details?id=com.bivoutic.calculator)
+
 iOS Version Coming Soon
 
 ---
@@ -51,7 +55,7 @@ iOS Version Coming Soon
 
 For technical support, feature requests, or business inquiries, please reach out via the following channels:
 
-* **Email**: help.iamvimal@gmail.com
+* **Email**: bivoutic.apps@gmail.com
 * **Developer Page**: [Google Play Console](https://play.google.com/store/apps/dev?id=8797132005650317166)
 
 ---
