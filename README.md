@@ -56,7 +56,3 @@ iOS Version Coming Soon
 For technical support, feature requests, or business inquiries, please reach out via the following channels:
 
 * **Email**: bivoutic.apps@gmail.com
-* **Developer Page**: [Google Play Console](https://play.google.com/store/apps/dev?id=8797132005650317166)
-
----
-© 2026 bivouitic apps
